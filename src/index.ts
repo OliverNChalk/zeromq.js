@@ -211,7 +211,7 @@ export interface Readable<M extends object[] = Message[]> {
   receiveTimeout: number
 
   /**
-   * Waits for the next single or multipart message to become availeble on the
+   * Waits for the next single or multipart message to become available on the
    * socket. Reads a message immediately if possible. If no messages can be
    * read, it will wait asynchonously. The promise will be resolved with an
    * array containing the parts of the next message when available.

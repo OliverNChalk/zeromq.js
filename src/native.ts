@@ -343,7 +343,7 @@ export declare class Observer {
   close(): void
 
   /**
-   * Waits for the next event to become availeble on the observer. Reads an
+   * Waits for the next event to become available on the observer. Reads an
    * event immediately if possible. If no events are queued, it will wait
    * asynchonously. The promise will be resolved with the next event when
    * available.
